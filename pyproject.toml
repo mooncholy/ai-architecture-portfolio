@@ -1,0 +1,19 @@
+[project]
+name = "ai-architecture-portfolio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mooncholy", email = "m.yzh.zayn@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pre-commit>=4.7.0",
+]
+
+[project.scripts]
+ai-architecture-portfolio = "ai_architecture_portfolio:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"

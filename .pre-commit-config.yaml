@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: adr-check
+        name: ADRs have every required section
+        entry: scripts/adr-check.sh
+        language: script
+        files: ^adr/.*\.md$
+        pass_filenames: false
